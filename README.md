@@ -55,7 +55,7 @@ php artisan migrate --seed
 chmod 777 -R storage bootstrap/cache
 ```
 
-- build npm
+- build yarn
 ```bash
 yarn dev
 ```
