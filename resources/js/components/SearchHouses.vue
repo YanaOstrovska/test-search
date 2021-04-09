@@ -18,7 +18,7 @@
             <el-input v-model.number="garages"></el-input>
         </el-form-item>
         <el-form-item label="Price">
-            <el-input v-model.number="priceTo" placeholder="From"></el-input> -
+            <el-input v-model.number="priceFrom" placeholder="From"></el-input> -
             <el-input v-model.number="priceTo" placeholder="To"/>
 
         </el-form-item>
