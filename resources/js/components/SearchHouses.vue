@@ -80,7 +80,6 @@ export default {
            axios.get(`/api/house/search?name=${this.name}&bedrooms=${this.bedrooms}&bathrooms=${this.bathrooms}
            &storeys=${this.storeys}&garages=${this.garages}&priceFrom=${this.priceFrom}&priceTo=${this.priceTo}`)
             .then(({data}) => {
-                console.log(data);
                 this.houses = data.result;
             })
 
